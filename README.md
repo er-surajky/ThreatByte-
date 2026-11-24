@@ -123,7 +123,7 @@ ThreatByte/
 ### 1. Clone & Setup
 ```bash
 git clone https://github.com/er-surajky/ThreatByte-.git
-cd ThreatByte
+cd ThreatByte-
 
 # Install dependencies
 pip install -r backend/requirements.txt
@@ -135,7 +135,7 @@ Copy `.env.example` to `.env` and fill in your keys:
 NVIDIA_API_KEY=your_nvidia_nim_api_key_here
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 TELEGRAM_BOT_USERNAME=threatbytebot
-SITE_URL=https://mukulgrover.github.io/ThreatByte
+SITE_URL=https://er-surajky.github.io/ThreatByte-
 ```
 
 ### 3. Run Pipeline
