@@ -15,7 +15,7 @@
 
 - **Web Portal**: [https://er-surajky.github.io/ThreatByte-/](https://er-surajky.github.io/ThreatByte-/))
 - **Telegram Bot**: [@threatbytebot](https://t.me/threatbytebot) *(Type `/start` or `/today` for instant bulletins)*
-- **LinkedIn Announcement**: [Read the Launch Post](https://lnkd.in/p/dQvbGb7g)
+
 
 ---
 
