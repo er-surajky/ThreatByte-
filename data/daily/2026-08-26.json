@@ -1,0 +1,299 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26 04:50:11 UTC",
+  "metrics": {
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "high_threats": 9,
+    "medium_threats": 0,
+    "low_threats": 1,
+    "unique_cves_count": 3,
+    "unique_cves": [
+      "N/A",
+      "Unknown",
+      "Unknown (unpublished)"
+    ],
+    "top_affected_vendors": [
+      "Microsoft",
+      "Los Angeles County Museum of Art (LACMA)",
+      "npm",
+      "Google",
+      "Apple"
+    ],
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)",
+    "threat_badge": "CRITICAL RISK"
+  },
+  "articles": [
+    {
+      "title": "LACMA data breach last year exposed social security and medical data",
+      "threat_category": "Data Breach",
+      "severity": "HIGH",
+      "severity_score": 7.5,
+      "target_sectors": [
+        "Arts and Culture",
+        "Education"
+      ],
+      "affected_vendors": [
+        "Los Angeles County Museum of Art (LACMA)"
+      ],
+      "cve_ids": [],
+      "threat_actor": "Unknown / Unattributed",
+      "executive_summary": "The Los Angeles County Museum of Art (LACMA) has disclosed a data breach that exposed sensitive customer and employee information, including social security numbers and medical data. The breach occurred last year, but the exact timing and scope of the incident remain unclear. Security teams should be aware of the potential for identity theft and medical identity theft.",
+      "technical_breakdown": "The breach is believed to have occurred through an unauthorized access to LACMA's systems, allowing the attacker to obtain sensitive customer and employee information. The exact method of unauthorized access is currently unknown. The breach is thought to have exposed social security numbers and medical data, which could be used for identity theft and medical identity theft. The attacker's privilege level and exploitation mechanics are currently unknown.",
+      "actionable_mitigations": [
+        "LACMA has not provided specific guidance on patching or upgrading systems, but users are advised to monitor their accounts for suspicious activity and report any incidents to the relevant authorities.",
+        "LACMA has not provided specific guidance on network containment or firewall recommendations, but users are advised to implement robust access controls and monitor system activity for signs of unauthorized access.",
+        "Detection indicators may include unusual login attempts, changes to sensitive data, or other signs of unauthorized access. Users are advised to implement robust logging and monitoring to detect and respond to potential incidents."
+      ],
+      "telegram_snippet": "LACMA data breach exposed social security and medical data. Security teams should be aware of potential identity theft and medical identity theft risks.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+      "published_at": "2026-08-25T16:28:14+00:00"
+    },
+    {
+      "title": "Hackers abuse npm mirrors to host phishing redirect pages",
+      "threat_category": "Vulnerability / Advisory",
+      "severity": "HIGH",
+      "severity_score": 7.5,
+      "target_sectors": [
+        "Enterprise",
+        "Development",
+        "Web Development"
+      ],
+      "affected_vendors": [
+        "npm"
+      ],
+      "cve_ids": [],
+      "threat_actor": "Unknown / Unattributed",
+      "executive_summary": "Threat actors are exploiting npm mirrors to host phishing redirect pages, impersonating Cloudflare CAPTCHAs to trick visitors into accessing attacker-controlled websites. This attack poses a significant risk to developers and organizations relying on npm for package dependencies.",
+      "technical_breakdown": "Attackers are abusing npm mirrors to host malicious HTML pages, which are designed to mimic Cloudflare CAPTCHAs. These pages redirect visitors to attacker-controlled websites, potentially leading to further exploitation or phishing attempts. The attackers require no special privileges to host these pages, as they are leveraging the npm infrastructure. The exploitation mechanics involve social engineering and the use of legitimate-looking CAPTCHA pages.",
+      "actionable_mitigations": [
+        "Verify the authenticity of CAPTCHA pages and be cautious of redirects to unfamiliar websites.",
+        "Use a web application firewall (WAF) to block suspicious traffic and prevent phishing attempts.",
+        "Monitor npm package dependencies and update to the latest versions to minimize the risk of exploitation."
+      ],
+      "telegram_snippet": "Threat actors are abusing npm mirrors to host phishing redirect pages, impersonating Cloudflare CAPTCHAs. Be cautious of suspicious CAPTCHA pages and monitor your npm package dependencies to minimize the risk of exploitation.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+      "published_at": "2026-08-25T16:09:01+00:00"
+    },
+    {
+      "title": "Hidden Prompts Trick AI Into False Email Summaries",
+      "threat_category": "0-Day & Exploit",
+      "severity": "HIGH",
+      "severity_score": 7.5,
+      "target_sectors": [
+        "Enterprise",
+        "Finance"
+      ],
+      "affected_vendors": [
+        "Microsoft",
+        "Google"
+      ],
+      "cve_ids": [
+        "N/A"
+      ],
+      "threat_actor": "Unknown / Unattributed",
+      "executive_summary": "Attackers can manipulate AI-powered email summarizers by using hidden HTML prompts, potentially leading to the production of malicious information. This vulnerability affects AI-powered email summarizers in enterprise and finance sectors, where sensitive information is often handled. Security teams should be aware of this threat and take necessary precautions to prevent exploitation.",
+      "technical_breakdown": "Attackers use hidden HTML prompts to manipulate AI-powered email summarizers, which are designed to analyze and summarize email content. These prompts are invisible to users and can be used to inject malicious information into the summarizer, leading to the production of false and potentially malicious information. The attacker does not require any specific privileges to exploit this vulnerability, as the AI-powered summarizer is designed to analyze and summarize email content without user intervention.",
+      "actionable_mitigations": [
+        "Disable or limit the use of AI-powered email summarizers in enterprise and finance sectors until a patch or fix is available.",
+        "Implement strict access controls and authentication mechanisms to prevent unauthorized access to email summarizers.",
+        "Monitor email traffic for suspicious activity and implement detection indicators, such as EDR and log queries, to identify potential exploitation attempts."
+      ],
+      "telegram_snippet": "Attackers can manipulate AI-powered email summarizers using hidden HTML prompts, potentially leading to the production of malicious information. Security teams should be aware of this threat and take necessary precautions to prevent exploitation.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
+      "published_at": "2026-08-25T15:38:55+00:00"
+    },
+    {
+      "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+      "threat_category": "0-Day & Exploit",
+      "severity": "HIGH",
+      "severity_score": 8.2,
+      "target_sectors": [
+        "Consumer",
+        "Enterprise"
+      ],
+      "affected_vendors": [
+        "Apple"
+      ],
+      "cve_ids": [
+        "N/A"
+      ],
+      "threat_actor": "Unknown / Unattributed",
+      "executive_summary": "A newly discovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT is using voice AI agents to automate the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. This platform poses a significant risk to iPhone users, particularly those who have had their devices stolen or compromised.",
+      "technical_breakdown": "AnonyMousKIT utilizes voice AI agents to interact with iPhone users, tricking them into revealing their passcodes. The platform then uses this information to unlock the device and disable the Activation Lock feature, allowing the attacker to regain control of the device. This attack vector requires no prior knowledge of the device's owner or their habits, making it a highly effective phishing tactic.",
+      "actionable_mitigations": [
+        "Ensure that all iPhone users are aware of the risks associated with phishing attacks and the importance of keeping their passcodes secure.",
+        "Implement additional security measures, such as two-factor authentication, to prevent unauthorized access to Apple devices.",
+        "Monitor device activity and logs for suspicious behavior, such as repeated attempts to unlock the device with incorrect passcodes."
+      ],
+      "telegram_snippet": "A newly discovered PhaaS platform called AnonyMousKIT is using voice AI agents to phish iPhone passcodes and unlock stolen devices. iPhone users are advised to be cautious and implement additional security measures to prevent unauthorized access.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+      "published_at": "2026-08-25T14:55:26+00:00"
+    },
+    {
+      "title": "NVIDIA OpenClaw Tool Vulnerability Allows LLM Poisoning",
+      "threat_category": "0-Day & Exploit",
+      "severity": "HIGH",
+      "severity_score": 7.5,
+      "target_sectors": [
+        "Research",
+        "Education",
+        "Finance"
+      ],
+      "affected_vendors": [
+        "NVIDIA"
+      ],
+      "cve_ids": [
+        "Unknown (unpublished)"
+      ],
+      "threat_actor": "Unknown / Unattributed",
+      "executive_summary": "A security bug in NVIDIA's OpenClaw tool allows attackers to gain unauthenticated access to the local model server through the Ollama API, enabling persistent AI agent corruption. This vulnerability poses a significant risk to organizations relying on large language models (LLMs) for research, education, or financial applications.",
+      "technical_breakdown": "Attackers exploit a security bug in NVIDIA's OpenClaw tool to gain unauthenticated access to the local model server through the Ollama API. This allows for persistent AI agent corruption, which can be leveraged for malicious purposes. The vulnerability requires no authentication and can be exploited remotely. The attack vector involves manipulating the Ollama API to corrupt the AI agent, resulting in a compromised model server.",
+      "actionable_mitigations": [
+        "Upgrade to the latest version of NVIDIA's OpenClaw tool (v1.2.3 or later)",
+        "Implement network segmentation and isolate the model server from the Ollama API",
+        "Monitor for suspicious API calls and EDR detection of AI agent corruption"
+      ],
+      "telegram_snippet": "NVIDIA's OpenClaw tool vulnerability allows unauthenticated access to local model servers via Ollama API, posing a risk to LLMs in research, education, and finance sectors. Upgrade to latest OpenClaw version (v1.2.3 or later) and implement network segmentation to mitigate the risk.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
+      "published_at": "2026-08-25T14:20:16+00:00"
+    },
+    {
+      "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+      "threat_category": "Nation-State/APT",
+      "severity": "HIGH",
+      "severity_score": 7.5,
+      "target_sectors": [
+        "Critical Infrastructure"
+      ],
+      "affected_vendors": [
+        "Unknown / Unattributed (Iranian Nation-State)"
+      ],
+      "cve_ids": [],
+      "threat_actor": "Unknown / Unattributed (Iranian Nation-State)",
+      "executive_summary": "The U.S. Department of the Treasury has imposed sanctions on Iranian cyber actors linked to critical infrastructure breaches. This move is part of a broader economic campaign aimed at severing Iran's financial connections worldwide. Security teams should be aware of potential increased activity from this threat actor.",
+      "technical_breakdown": "The sanctions target Iranian cyber actors involved in critical infrastructure breaches, indicating a nation-state-level threat actor with potential access to sensitive systems and data. The breach is likely the result of sophisticated social engineering or exploitation of vulnerabilities in critical infrastructure systems. The attackers may have used their access to disrupt or manipulate critical systems, posing a significant risk to national security. The exact methods used by the attackers are unclear, but the sanctions suggest a high level of sophistication and coordination.",
+      "actionable_mitigations": [
+        "Review and update incident response plans to account for potential Iranian nation-state activity",
+        "Implement robust network segmentation and access controls to limit lateral movement",
+        "Monitor for suspicious activity and indicators of compromise (IOCs) related to Iranian nation-state actors"
+      ],
+      "telegram_snippet": "U.S. sanctions Iranian cyber actors linked to critical infrastructure breaches as part of a broader economic campaign. Security teams should be aware of potential increased activity from this threat actor.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+      "published_at": "2026-08-25T12:47:17+00:00"
+    },
+    {
+      "title": "Massive DDoS attack disrupts Norway\u2019s government digital services",
+      "threat_category": "Cloud & Supply Chain",
+      "severity": "HIGH",
+      "severity_score": 7.5,
+      "target_sectors": [
+        "Government"
+      ],
+      "affected_vendors": [
+        "Norway's shared government digital infrastructure"
+      ],
+      "cve_ids": [],
+      "threat_actor": "Unknown / Unattributed",
+      "executive_summary": "A massive DDoS attack has disrupted Norway's government digital services since Monday, affecting services used by the public sector. The attack has caused significant disruptions to critical government infrastructure, highlighting the need for robust cybersecurity measures. Security teams should be on high alert for similar attacks.",
+      "technical_breakdown": "The attack is believed to be a large-scale DDoS attack targeting Norway's shared government digital infrastructure, with the goal of disrupting critical services. The attack vector is likely a botnet or other amplification technique, with the attackers leveraging a significant amount of bandwidth to overwhelm the targeted systems. The attack requires no privilege level to execute, as it is a network-based attack. The exploitation mechanics involve overwhelming the targeted systems with traffic, causing them to become unavailable.",
+      "actionable_mitigations": [
+        "Implement DDoS protection measures, such as traffic filtering and rate limiting, to prevent similar attacks in the future.",
+        "Monitor network traffic for signs of DDoS activity, and isolate affected systems to prevent further disruption.",
+        "Review and update incident response plans to ensure they are effective in responding to large-scale DDoS attacks."
+      ],
+      "telegram_snippet": "Norway's government digital services disrupted by massive DDoS attack. Security teams should be on high alert for similar attacks and review incident response plans to ensure effectiveness.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+      "published_at": "2026-08-25T10:22:36+00:00"
+    },
+    {
+      "title": "Obfuscating IP Addresses as Hostnames",
+      "threat_category": "Vulnerability / Advisory",
+      "severity": "HIGH",
+      "severity_score": 7.5,
+      "target_sectors": [
+        "Enterprise",
+        "Cloud"
+      ],
+      "affected_vendors": [
+        "Multiple"
+      ],
+      "cve_ids": [
+        "Unknown"
+      ],
+      "threat_actor": "Unknown / Unattributed",
+      "executive_summary": "A recent cybersecurity event highlights the potential for attackers to obfuscate IP addresses as hostnames, exploiting Server Side Request Forgery (SSRF) vulnerabilities. This technique can be used to bypass security controls and access sensitive information. Security teams should be aware of this tactic and take steps to filter and block suspicious requests.",
+      "technical_breakdown": "Attackers can replace IP addresses with hostnames to bypass security controls and exploit SSRF vulnerabilities. This technique can be used to access cloud metadata services, potentially leading to unauthorized access to sensitive information. The attack vector involves using a hostname instead of an IP address, which can be filtered or blocked to prevent exploitation.",
+      "actionable_mitigations": [
+        "Filter requests containing suspicious hostnames, such as '169.254.169.254'",
+        "Add the IP address '169.254.169.254' to a blocklist of URLs that should not be accessed",
+        "Implement a web application firewall (WAF) to detect and prevent SSRF attacks"
+      ],
+      "telegram_snippet": "Attackers are using hostname obfuscation to bypass security controls and exploit SSRF vulnerabilities. Filter requests containing suspicious hostnames and block access to the '169.254.169.254' IP address to prevent exploitation.",
+      "source": "SANS Internet Storm Center",
+      "url": "https://isc.sans.edu/diary/rss/33280",
+      "published_at": "2026-08-25T09:33:33+00:00"
+    },
+    {
+      "title": "Small Businesses Face Affordability Crisis, Threatening Supply Chain Security",
+      "threat_category": "Cloud & Supply Chain",
+      "severity": "HIGH",
+      "severity_score": 8.0,
+      "target_sectors": [
+        "Small Business",
+        "Supply Chain"
+      ],
+      "affected_vendors": [],
+      "cve_ids": [],
+      "threat_actor": "Unknown / Unattributed",
+      "executive_summary": "As breach costs reach record highs, small businesses are struggling to afford cybersecurity measures, leaving them dangerously exposed and threatening the security of the global supply chain.",
+      "technical_breakdown": "The affordability crisis in cybersecurity is driven by the increasing cost of breaches and the need for small businesses to invest in defense measures, such as threat detection and incident response, to mitigate the risk of cyber attacks.",
+      "actionable_mitigations": [
+        "Small businesses should prioritize budget allocation for cybersecurity measures, including threat detection and incident response, to mitigate the risk of cyber attacks.",
+        "Consider partnering with larger organizations or cybersecurity service providers to access more affordable and effective security solutions.",
+        "Implement basic security controls, such as multi-factor authentication and regular software updates, to reduce the attack surface."
+      ],
+      "telegram_snippet": "Small businesses face an affordability crisis in cybersecurity, threatening supply chain security as breach costs reach record highs.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-",
+      "published_at": "2026-08-25T09:23:13+00:00"
+    },
+    {
+      "title": "Linux Foundation Takes Over Governance of TRACE, an Open Standard for AI Runtime Attestation",
+      "threat_category": "Vulnerability / Advisory",
+      "severity": "LOW",
+      "severity_score": 2.0,
+      "target_sectors": [
+        "Technology",
+        "Research"
+      ],
+      "affected_vendors": [
+        "AMD",
+        "Intel",
+        "Microsoft",
+        "OPAQUE",
+        "TII"
+      ],
+      "cve_ids": [],
+      "threat_actor": "Unknown / Unattributed",
+      "executive_summary": "The Linux Foundation has taken over governance of TRACE, an open standard for AI runtime attestation. This move aims to promote the adoption and standardization of AI runtime attestation, ensuring the trustworthiness of AI systems. Security teams should be aware of this development and its potential implications on AI system security.",
+      "technical_breakdown": "TRACE is an open standard for AI runtime attestation, developed by AMD, Intel, Microsoft, OPAQUE, and TII. The standard aims to provide a framework for verifying the trustworthiness of AI systems. The Linux Foundation's governance of TRACE will help promote its adoption and standardization. This move is expected to enhance the security of AI systems by ensuring their trustworthiness.",
+      "actionable_mitigations": [
+        "Monitor the Linux Foundation's governance of TRACE for updates and guidelines on implementing the standard.",
+        "Review and assess the security implications of adopting AI runtime attestation standards on existing AI systems.",
+        "Consider implementing AI runtime attestation standards in new AI system development projects."
+      ],
+      "telegram_snippet": "Linux Foundation takes over governance of TRACE, an open standard for AI runtime attestation, to promote its adoption and standardization in AI system security.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/",
+      "published_at": "2026-08-25T10:53:45+00:00"
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+[
+  {
+    "date": "2026-11-23",
+    "top_headline": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-11-22",
+    "top_headline": "Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-11-21",
+    "top_headline": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-11-20",
+    "top_headline": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-11-19",
+    "top_headline": "NVIDIA investigating Gentlemen ransomware breach claims",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-11-18",
+    "top_headline": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-11-17",
+    "top_headline": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-11-16",
+    "top_headline": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-11-15",
+    "top_headline": "US disrupts North Korean campaign behind $400 million crypto theft",
+    "total_incidents": 7,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-11-14",
+    "top_headline": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-11-13",
+    "top_headline": "Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018SignDrop\u2019",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-11-12",
+    "top_headline": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-11-11",
+    "top_headline": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-11-10",
+    "top_headline": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-11-09",
+    "top_headline": "Over 3 Million People Hit by Frontline Education Data Breach",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-11-08",
+    "top_headline": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+    "total_incidents": 6,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-11-07",
+    "top_headline": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-11-06",
+    "top_headline": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-11-05",
+    "top_headline": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-11-04",
+    "top_headline": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-11-03",
+    "top_headline": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-11-02",
+    "top_headline": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-11-01",
+    "top_headline": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-10-31",
+    "top_headline": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-10-30",
+    "top_headline": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-29",
+    "top_headline": "Hackers Exploit Cisco SD-WAN Flaw to Steal Encryption Keys",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-28",
+    "top_headline": "Tailscale Patches SSH Flaws Allowing Root Access on Other Servers",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-27",
+    "top_headline": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-10-26",
+    "top_headline": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+    "total_incidents": 7,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-10-25",
+    "top_headline": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "total_incidents": 9,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-10-24",
+    "top_headline": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-23",
+    "top_headline": "Node.js Build Vulnerable to RCE via Crafted Brotli Data",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-22",
+    "top_headline": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-21",
+    "top_headline": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2)",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-20",
+    "top_headline": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "NOMINAL (LEVEL BLUE)"
+  },
+  {
+    "date": "2026-10-19",
+    "top_headline": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+    "total_incidents": 7,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-18",
+    "top_headline": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+    "total_incidents": 8,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-10-17",
+    "top_headline": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+    "total_incidents": 10,
+    "critical_threats": 6,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-16",
+    "top_headline": "China-Linked Hackers Exploit BeyondTrust Zero-Day to Take Over Remote Support Servers",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-15",
+    "top_headline": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
+    "total_incidents": 10,
+    "critical_threats": 5,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-14",
+    "top_headline": "Four-Byte Write and Timing Bug Lets Researchers Run Code in Windows SmartScreen Enclave",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-13",
+    "top_headline": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-12",
+    "top_headline": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+    "total_incidents": 6,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-11",
+    "top_headline": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "total_incidents": 9,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-10-10",
+    "top_headline": "FBI Arrests Founder of Ransomware Negotiation Firm",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-10-09",
+    "top_headline": "Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries",
+    "total_incidents": 10,
+    "critical_threats": 7,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-08",
+    "top_headline": "Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-07",
+    "top_headline": "Atlassian Patches Critical Vulnerability Affecting 8 Products",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-06",
+    "top_headline": "8.8 Million Impacted by Data Breach at Denmark\u2019s Central Person Register",
+    "total_incidents": 10,
+    "critical_threats": 5,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-05",
+    "top_headline": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-04",
+    "top_headline": "Google Gemini could soon get full access to your Mac\u2019s files, apps and the web",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-03",
+    "top_headline": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-02",
+    "top_headline": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-10-01",
+    "top_headline": "Hackers stole Pentagon personnel records of over 3 million people",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-30",
+    "top_headline": "Apple Zero-Day Vulnerability Exploited in Targeted Attacks",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-29",
+    "top_headline": "Kiteworks patches critical flaw, brings customer systems online",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-28",
+    "top_headline": "Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-27",
+    "top_headline": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-26",
+    "top_headline": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-25",
+    "top_headline": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-24",
+    "top_headline": "Critical WordPress Vulnerability Exploited Immediately After Disclosure",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-23",
+    "top_headline": "Critical F5 BIG-IP Vulnerability Exploited as Zero-Day",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-22",
+    "top_headline": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-21",
+    "top_headline": "Google Confirms Gemini AI Breached Three Firms",
+    "total_incidents": 4,
+    "critical_threats": 0,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-09-20",
+    "top_headline": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-19",
+    "top_headline": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-18",
+    "top_headline": "Check Point, Kaspersky, Tanium Patch Product Vulnerabilities",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-17",
+    "top_headline": "Cisco warns of max severity ISE zero-day exploited in attacks",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-16",
+    "top_headline": "Oracle Patches 800+ Vulnerabilities in September 2026 Security Update",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-15",
+    "top_headline": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+    "total_incidents": 10,
+    "critical_threats": 6,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-14",
+    "top_headline": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+    "total_incidents": 7,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-09-13",
+    "top_headline": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "total_incidents": 7,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-12",
+    "top_headline": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-09-11",
+    "top_headline": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-09-10",
+    "top_headline": "New \u2018ShieldCrash\u2019 Zero-Day Exploit Targets Microsoft Defender",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-09",
+    "top_headline": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-08",
+    "top_headline": "220 million traveler records exposed in Vietnam-linked APIS leak",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-07",
+    "top_headline": "MikroTik Routers Hijacked Through Exposed SSH Without Authentication",
+    "total_incidents": 7,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-06",
+    "top_headline": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "total_incidents": 9,
+    "critical_threats": 6,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-05",
+    "top_headline": "IDScan sued over alleged data breach affecting 153 million drivers",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-04",
+    "top_headline": "HPE patches critical ArubaOS-CX remote code execution flaw",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-03",
+    "top_headline": "CrowdStrike Falcon Vulnerability Exposed by Zero-Day Exploit",
+    "total_incidents": 10,
+    "critical_threats": 5,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-02",
+    "top_headline": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+    "total_incidents": 10,
+    "critical_threats": 5,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-09-01",
+    "top_headline": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-08-31",
+    "top_headline": "More Details Emerge on Exploited PaperCut Vulnerabilities",
+    "total_incidents": 10,
+    "critical_threats": 2,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-08-30",
+    "top_headline": "McKesson discloses breach after ShinyHunters claims patient data theft",
+    "total_incidents": 8,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-08-29",
+    "top_headline": "McKesson discloses breach after ShinyHunters claims patient data theft",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-08-28",
+    "top_headline": "OT Cyberattacks Leave No Data, No Trail, and No History",
+    "total_incidents": 10,
+    "critical_threats": 4,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-08-27",
+    "top_headline": "Carhartt data breach exposes information of 12.9 million accounts",
+    "total_incidents": 10,
+    "critical_threats": 1,
+    "overall_threat_level": "GUARDED (LEVEL YELLOW)"
+  },
+  {
+    "date": "2026-08-26",
+    "top_headline": "LACMA data breach last year exposed social security and medical data",
+    "total_incidents": 10,
+    "critical_threats": 0,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  },
+  {
+    "date": "2026-08-25",
+    "top_headline": "Zimbra Flaw Exploited, CISA Issues 3-Day Patch Deadline",
+    "total_incidents": 10,
+    "critical_threats": 3,
+    "overall_threat_level": "ELEVATED (LEVEL ORANGE)"
+  }
+]
