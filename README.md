@@ -382,7 +382,7 @@ Potential improvements to expand the platform's threat intelligence capabilities
 Cybersecurity Enthusiast | Threat Intelligence | Security Research
 
 - **GitHub:** [@Suraj Kumar Yadav](https://github.com/er-surajky)
-- **LinkedIn:** [Suraj Kumar Yadav](linkedin.com/in/suraj-kumar-yadav-5183ba299/)
+- **LinkedIn:** [Suraj Kumar Yadav](linkedin.com/in/suraj-kumar-yadav-5183ba299)
 
 ---
 
