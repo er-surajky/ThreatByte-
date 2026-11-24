@@ -1,6 +1,6 @@
 # 🛡️ ThreatByte — Automated Cyber Threat Intelligence & Incident Platform
 
-[![Live Portal](https://img.shields.io/badge/Live%20Portal-ThreatByte-3b82f6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mukulgrover.github.io/ThreatByte)
+[![Live Portal](https://img.shields.io/badge/Live%20Portal-ThreatByte-3b82f6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://er-surajky.github.io/ThreatByte-/)
 [![Daily Briefing](https://img.shields.io/badge/Daily%20Briefing-06%3A00%20UTC-3b82f6?style=for-the-badge&logo=githubactions&logoColor=white)](.github/workflows/daily_briefing.yml)
 [![AI Threat Engine](https://img.shields.io/badge/AI%20Engine-NVIDIA%20NIM%20(Llama%203.1)-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://build.nvidia.com)
 [![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-%40threatbytebot-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/threatbytebot)
